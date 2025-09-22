@@ -22,9 +22,9 @@ public class Calculator {
         String breakerString = "Y";
 
         while (breakerString.toLowerCase().equals("y")) {
-            System.out.println("Enter Number 1: ");
+            System.out.println("Enter first number: ");
             double num1 = scanner.nextDouble();
-            System.out.println("Enter Number 2: ");
+            System.out.println("Enter second number: ");
             double num2 = scanner.nextDouble();
 
             System.out.println("+ = addition");
@@ -58,6 +58,10 @@ public class Calculator {
 
                 case '/':
                 {
+                    if (num2 == 0) {
+                        System.out.println("Error: Division by zero is not possible.");
+                        break;
+                    }
                     result = division(num1, num2);
                     System.out.println("Result = " + result);
                     break;
