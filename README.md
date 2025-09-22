@@ -1,1 +1,2 @@
 # Intern_Calculator
+This Java console-based calculator is a beginner-friendly program that performs basic arithmetic operations—addition, subtraction, multiplication, and division—based on user input. It uses simple method definitions for each operation and a loop to allow repeated calculations until the user chooses to exit. The program demonstrates core Java concepts like Scanner for input, switch statements for control flow, and method-based modular design, making it a great starting point for anyone learning Java.
